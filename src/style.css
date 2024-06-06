@@ -1,0 +1,72 @@
+body {
+  background-color: #f3e5d8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  text-align: center;
+}
+
+.recipe-website {
+  border-radius: 10px;
+  max-width: 100%;
+  background-color: white;
+  padding: 20px;
+}
+
+#bananaBark {
+  height: 400px;
+  width: 600px;
+  border-radius: 10px;
+  margin-bottom: -15px;
+}
+
+.header p {
+  margin-top: -20px;
+  font-style: italic;
+}
+
+h1,
+.ingredients h2,
+.instructions h2 {
+  font-family: "Space Mono", monospace;
+}
+
+.ingredients h2,
+.instructions h2 {
+  text-align: left;
+  color: rgba(192, 91, 91, 0.717);
+}
+
+.header p,
+.ingredients li,
+.instructions li {
+  font-family: "Roboto", sans-serif;
+}
+
+.ingredients ul,
+.instructions ul {
+  margin: 0;
+  list-style-position: inside;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.ingredients li,
+.instructions li {
+  text-align: left;
+}
+
+.ingredients hr {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  #bananaBark {
+    width: 350px;
+    height: 250px;
+  }
+}
